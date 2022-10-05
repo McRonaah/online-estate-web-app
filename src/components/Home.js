@@ -3,9 +3,7 @@ import Location from "./Location";
 
 const Home = () => {
     return (
-        <>
          <Location />
-        </>
     )
 }
 

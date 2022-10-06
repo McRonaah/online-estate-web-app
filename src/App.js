@@ -5,17 +5,15 @@ import Services from "./components/Services";
 import Contact from "./components/Contact";
 import Policy from "./components/Policy";
 import Error from "./components/Error";
-// import List from "./components/List";
 import './App.css';
 import Navbar from './components/NavBar';
-// import { Switch } from 'react-router-dom';
-import { BrowserRouter as Router, Routes, Route, } from 'react-router-dom';
+import { BrowserRouter as  Switch, Routes, Route, } from 'react-router-dom';
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    // <Switch>
-      <Router>
-        {/* <List /> */}
+    <Switch>
+      {/* <Router> */}
       <Navbar />
       <Routes>
         <Route path='/' element={<Home/>} />
@@ -25,8 +23,9 @@ function App() {
         <Route path='/components/Policy' element={<Policy/>} />
         <Route path='/components'element={<Error/>} />
       </Routes>
-    </Router>
-    // </Switch>
+      <Footer />
+    {/* </Router> */}
+    </Switch>
   );
 }
 

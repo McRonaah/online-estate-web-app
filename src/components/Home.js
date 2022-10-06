@@ -1,9 +1,12 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
+// import homeimg from "./images/image5.jpg";
 
 function Home(){
     return (
-        <div>
-            <p>ARE YOU LOOKING FOR</p>
+        <div className="mainSection">
+           <div className="contentBox">
+           <p>ARE YOU LOOKING FOR</p>
             <h2>LEGIT LAND AND APARTMENTS</h2>
             <p>We make it easier for you to own genuine land for residential and commercial
                 make our apartments your home at affordable price</p>
@@ -22,6 +25,17 @@ function Home(){
             <h2>WE BUILD</h2>
             <h2>WE MANAGE</h2>
             <h2>WE SELL</h2>
+            <div className="btnBox">
+                <div className="btn">
+                <NavLink to='/components/About' className="readMore" activeStyle>
+                    Read More
+                </NavLink>
+                </div>
+            </div>
+           </div>
+           {/* <div className="imageContainer">
+                <img src ={homeimg} alt="home"/>
+           </div> */}
         </div>
     )
 }

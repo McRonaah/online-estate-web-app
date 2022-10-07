@@ -10,14 +10,14 @@ const Card=(props) =>{
         <>
         <div className="card">
                 <h2>{props.title1}</h2>
-                <img src={props.imgSource} alt="payment" className="serviceImg" />
+                <img src={props.imgsrc} alt="payment" className="serviceImg" />
                 <p>{props.desc1}</p>
                 <div className="btnBox">
                     <div className="btn">
                     <NavLink to='/components/About' className="readMore" activeStyle>
                         {props.btnServices}
                     </NavLink>
-                </div>
+                    </div>
                 </div>
             </div>
             {/* <div className="card">

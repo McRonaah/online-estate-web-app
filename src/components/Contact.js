@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from "react-router-dom";
 import { useState } from "react";
 
 const Contact = ()  => {
@@ -6,11 +7,11 @@ const Contact = ()  => {
   const [lastName, setLastName] = useState('');
   const [email, setEmail] = useState('');
   const [phoneNumber, setPhoneNumber] = useState('');
-  const [comment, setComment] = useState('');
+  const [message, setMessage] = useState('');
   return(
     <div className='create'>
       <h2>Contact Us</h2>
-      <form>
+      <form className="contact">
                 <label>First Name</label>
                 <input
                     type="text"
@@ -39,14 +40,20 @@ const Contact = ()  => {
                     value={phoneNumber}
                     onChange={(e) =>setPhoneNumber(e.target.value)}
                 />
-                <label>Comment</label>
+                <label>Message</label>
                 <input
                     type="text"
                     required
-                    value={comment}
-                    onChange={(e) =>setComment(e.target.value)}
+                    value={message}
+                    onChange={(e) =>setMessage(e.target.value)}
                 />
-                <button>Submit</button>
+                <div className="btnBox">
+                    <div className="btn">
+                    <NavLink to='/components/About' className="readMore" activeStyle>
+                        Submit
+                    </NavLink>
+                    </div>
+                </div>
       </form>
     </div>
   )

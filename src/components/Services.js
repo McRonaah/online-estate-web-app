@@ -13,7 +13,7 @@ const Services = () => {
                 return (
                     <Card 
                         title1={values.stitle}
-                        imgsource={values.imgsrc}
+                        imgsrc={values.imgsrc}
                         desc1={values.desc1}
                         btnServices={values.btnServices}
                     />

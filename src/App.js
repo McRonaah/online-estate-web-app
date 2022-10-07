@@ -21,7 +21,7 @@ function App() {
         <Route path='/components/Services' element={<Services/>} />
         <Route path='/components/Contact' element={<Contact/>} />
         <Route path='/components/Policy' element={<Policy/>} />
-        <Route path='/components'element={<Error/>} />
+        <Route path='/components' element={<Error/>} />
       </Routes>
       <Footer />
     {/* </Router> */}

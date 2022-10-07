@@ -19,19 +19,19 @@ const Navbar = () => {
             </div>
         </div>
         </header>
-          <NavLink to='/' activeStyle>
+          <NavLink to='/'>
             Home
           </NavLink>
-          <NavLink to='/components/About' activeStyle>
+          <NavLink to='/components/About'>
             About
           </NavLink>
-          <NavLink to='/components/Services' activeStyle>
+          <NavLink to='/components/Services'>
             Services
           </NavLink>
-          <NavLink to='/components/Contact' activeStyle>
+          <NavLink to='/components/Contact'>
             Contact
           </NavLink>
-          <NavLink to='/components/Policy' activeStyle>
+          <NavLink to='/components/Policy'>
             Policy
           </NavLink>
         </NavMenu>

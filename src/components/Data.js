@@ -1,7 +1,7 @@
 const Data=[
     {
         stitle:"Payment",
-        imgsrc:"https://cdn2.vectorstock.com/i/1000x1000/83/81/payment-icon-from-business-bicolor-set-vector-5378381.jpg",
+        imgsrc:"https://cdn-icons-png.flaticon.com/512/1290/1290724.png",
         desc1:"A deposit of 30% to be made upon signing the offer letter. Balance payable in installments within 18 months.",
         btnServices:"Read More"
     },
@@ -19,8 +19,9 @@ const Data=[
     },
     {
         stitle:"Management",
-        imgsrc1:"https://lirp.cdn-website.com/c3c3c859/dms3rep/multi/opt/image-1920w.jpeg",
+        imgsrc:"https://lirp.cdn-website.com/c3c3c859/dms3rep/multi/opt/image-1920w.jpeg",
         desc:"Blue Skies does the work for you! We look for tenants, collect rent and manage the unit on your behalf.Yours is to monitor your investment.",
         btnServices:"Read More"
     }
 ]
+export default Data;

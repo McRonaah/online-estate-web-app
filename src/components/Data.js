@@ -20,7 +20,7 @@ const Data=[
     {
         stitle:"Management",
         imgsrc:"https://lirp.cdn-website.com/c3c3c859/dms3rep/multi/opt/image-1920w.jpeg",
-        desc:"Blue Skies does the work for you! We look for tenants, collect rent and manage the unit on your behalf.Yours is to monitor your investment.",
+        desc1:"Blue Skies does the work for you! We look for tenants, collect rent and manage the unit on your behalf.Yours is to monitor your investment.",
         btnServices:"Read More"
     }
 ]

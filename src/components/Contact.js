@@ -9,9 +9,9 @@ const Contact = ()  => {
   const [phoneNumber, setPhoneNumber] = useState('');
   const [message, setMessage] = useState('');
   return(
-    <div className='create'>
+    <div className='contact'>
       <h2>Contact Us</h2>
-      <form className="contact">
+      <form className="form">
                 <label>First Name</label>
                 <input
                     type="text"

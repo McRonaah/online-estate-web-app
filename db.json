@@ -2,9 +2,9 @@
   "employees": [
     {
       "id": 1,
-      "first_name": "Sebastian",
-      "last_name": "Eschweiler",
-      "email": "sebastian@codingthesmartway.com"
+      "first_name": "Yegon",
+      "last_name": "Andrew",
+      "email": "andrewyegs@yahoo.com"
     },
     {
       "id": 2,
@@ -17,6 +17,36 @@
       "first_name": "Ann",
       "last_name": "Smith",
       "email": "ann@codingthesmartway.com"
+    },
+    {
+      "id": 4,
+      "first_name": "Dennis",
+      "last_name": "Muta",
+      "email": "dennis67@gmail.com"
+    },
+    {
+      "id": 5,
+      "first_name": "Sebastian",
+      "last_name": "Eschweiler",
+      "email": "sebastian@codingthesmartway.com"
+    },
+    {
+      "id": 6,
+      "first_name": "Aaron",
+      "last_name": "Mustafa",
+      "email": "mustafa0067@yahoo.com"
+    },
+    {
+      "id": 7,
+      "first_name": "Maureen",
+      "last_name": "Kamau",
+      "email": "kamau01@gmail.com"
+    },
+    {
+      "id": 8,
+      "first_name": "Ronald",
+      "last_name": "Cheruiyot",
+      "email": "ronaldcheruiyot342@gmail.com"
     }
   ]
 }

@@ -13,7 +13,6 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <Switch>
-      {/* <Router> */}
       <Navbar />
       <Routes>
         <Route path='/' element={<Home/>} />
@@ -24,7 +23,6 @@ function App() {
         <Route path='/components' element={<Error/>} />
       </Routes>
       <Footer />
-    {/* </Router> */}
     </Switch>
   );
 }

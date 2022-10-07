@@ -1,39 +1,26 @@
 import React from "react";
-import Card from "./Card";
-import Data from "./Data";
+import { NavLink } from "react-router-dom";
+// import paymentimg from "./images/payment.png";
+// import updateimg from "./images/update.jpeg";
+// import handoverimg from "./images/handover.jpg";
+// import manageimg from "./images/manage.jpg";
 
-const Services = () => {
+const Card=(props) =>{
     return (
-        // <>
-      <div className="serviceBody">
-        <h1>Our Services</h1>
-        {/* <Card /> */}
-        <div className="services">
-            {Data.map((values)=>{
-                return (
-                    <Card 
-                        title1={values.stitle}
-                        imgsource={values.imgsrc}
-                        desc1={values.desc1}
-                        btnServices={values.btnServices}
-                    />
-                )
-            })}
-        {/* </> */}
-            {/* <div className="card">
-                <h2>Payment</h2>
-                <img src={paymentimg} alt="payment" className="serviceImg" />
-                <p>A deposit of 30% to be made upon signing the offer letter. 
-                    Balance payable in installments within 18 months.</p>
+        <>
+        <div className="card">
+                <h2>{props.title1}</h2>
+                <img src={props.imgSource} alt="payment" className="serviceImg" />
+                <p>{props.desc1}</p>
                 <div className="btnBox">
                     <div className="btn">
                     <NavLink to='/components/About' className="readMore" activeStyle>
-                        Read More
+                        {props.btnServices}
                     </NavLink>
                 </div>
                 </div>
             </div>
-            <div className="card">
+            {/* <div className="card">
                 <h2>Update</h2>
                 <img src={updateimg} alt="payment" className="serviceImg"/>
                 <p>We will keep you updated with the progress of your unit, walk you through 
@@ -72,9 +59,8 @@ const Services = () => {
                 </div>
                 </div>
             </div> */}
-        </div>
-      </div>
-    );
+            </>
+    )
 }
 
-export default Services;
+export default Card;

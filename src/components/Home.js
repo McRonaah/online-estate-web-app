@@ -6,7 +6,7 @@ function Home(){
     return (
         <div className="mainSection">
            <div className="contentBox">
-           <p>ARE YOU LOOKING FOR</p>
+           <h3>ARE YOU LOOKING FOR</h3>
             <h2>LEGIT LAND AND APARTMENTS</h2>
             <p>We make it easier for you to own genuine land for residential and commercial
                 make our apartments your home at affordable price</p>

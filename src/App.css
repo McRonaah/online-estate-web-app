@@ -146,3 +146,11 @@
   justify-content: space-around;
   align-items: center;
 }
+
+.policySection{
+  display: flex;
+  background-image: url(./components/images/image6.jpg);
+  background-size: cover;
+  justify-content: space-around;
+  align-items: center;
+}

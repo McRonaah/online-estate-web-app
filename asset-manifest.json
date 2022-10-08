@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/estate-web-app/static/css/main.4c122f6f.css",
+    "main.js": "/estate-web-app/static/js/main.6ded3fe4.js",
+    "static/js/787.a97c928d.chunk.js": "/estate-web-app/static/js/787.a97c928d.chunk.js",
+    "static/media/image5.jpg": "/estate-web-app/static/media/image5.2c9ba44a592ffd9ae06a.jpg",
+    "static/media/image4.jpg": "/estate-web-app/static/media/image4.0a83687884a52dcc3f8c.jpg",
+    "static/media/image3.jpg": "/estate-web-app/static/media/image3.d713023f1e7dfa1f8a65.jpg",
+    "static/media/image6.jpg": "/estate-web-app/static/media/image6.410541417f7df611ec66.jpg",
+    "static/media/image7.jpg": "/estate-web-app/static/media/image7.3747e997630a7a3df3a6.jpg",
+    "static/media/logo.jpg": "/estate-web-app/static/media/logo.fa2cc11cabf5e9dde6da.jpg",
+    "index.html": "/estate-web-app/index.html",
+    "main.4c122f6f.css.map": "/estate-web-app/static/css/main.4c122f6f.css.map",
+    "main.6ded3fe4.js.map": "/estate-web-app/static/js/main.6ded3fe4.js.map",
+    "787.a97c928d.chunk.js.map": "/estate-web-app/static/js/787.a97c928d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c122f6f.css",
+    "static/js/main.6ded3fe4.js"
+  ]
+}

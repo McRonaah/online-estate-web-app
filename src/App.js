@@ -7,11 +7,12 @@ import Policy from "./components/Policy";
 import Error from "./components/Error";
 import './App.css';
 import Navbar from './components/NavBar';
-import { BrowserRouter as  Switch, Routes, Route, } from 'react-router-dom';
+import { BrowserRouter as  Switch, Router, Routes, Route, } from 'react-router-dom';
 import Footer from "./components/Footer";
 
 function App() {
   return (
+    <Router>
     <Switch>
       <Navbar />
       <Routes>
@@ -24,6 +25,7 @@ function App() {
       </Routes>
       <Footer />
     </Switch>
+    </Router>
   );
 }
 

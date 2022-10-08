@@ -10,7 +10,7 @@ const Card=(props) =>{
                 <p>{props.desc1}</p>
                 <div className="btnBox">
                     <div className="btn">
-                    <NavLink to='/components/About' className="readMore" activeStyle>
+                    <NavLink to='/components/About' className="readMore">
                         {props.btnServices}
                     </NavLink>
                     </div>

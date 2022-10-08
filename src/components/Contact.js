@@ -49,7 +49,7 @@ const Contact = ()  => {
                 />
                 <div className="btnBox">
                     <div className="btn">
-                    <NavLink to='/components/About' className="readMore" activeStyle>
+                    <NavLink to='/components/About' className="readMore">
                         Submit
                     </NavLink>
                     </div>

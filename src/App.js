@@ -7,7 +7,7 @@ import Policy from "./components/Policy";
 import Error from "./components/Error";
 import './App.css';
 import Navbar from './components/NavBar';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Footer from "./components/Footer";
 
 function App() {
@@ -15,14 +15,14 @@ function App() {
     <Router>
       <div>
       <Navbar />
-         <Routes>
+         <Switch>
           <Route path='/' element={<Home/>} />
           <Route path='/components/About' element={<About/>} />
           <Route path='/components/Services' element={<Services/>} />
           <Route path='/components/Contact' element={<Contact/>} />
           <Route path='/components/Policy' element={<Policy/>} />
           <Route path='/components' element={<Error/>} />
-         </Routes>
+         </Switch>
       <Footer />
       </div>
      </Router>

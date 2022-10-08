@@ -7,25 +7,25 @@ import Policy from "./components/Policy";
 import Error from "./components/Error";
 import './App.css';
 import Navbar from './components/NavBar';
-import { BrowserRouter as  Switch, Router, Routes, Route, } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Footer from "./components/Footer";
 
 function App() {
   return (
     <Router>
-    <Switch>
+      <div>
       <Navbar />
-      <Routes>
-        <Route path='/' element={<Home/>} />
-        <Route path='/components/About' element={<About/>} />
-        <Route path='/components/Services' element={<Services/>} />
-        <Route path='/components/Contact' element={<Contact/>} />
-        <Route path='/components/Policy' element={<Policy/>} />
-        <Route path='/components' element={<Error/>} />
-      </Routes>
+         <Routes>
+          <Route path='/' element={<Home/>} />
+          <Route path='/components/About' element={<About/>} />
+          <Route path='/components/Services' element={<Services/>} />
+          <Route path='/components/Contact' element={<Contact/>} />
+          <Route path='/components/Policy' element={<Policy/>} />
+          <Route path='/components' element={<Error/>} />
+         </Routes>
       <Footer />
-    </Switch>
-    </Router>
+      </div>
+     </Router>
   );
 }
 

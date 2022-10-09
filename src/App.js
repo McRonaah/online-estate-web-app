@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from "./components/Home";
 import About from "./components/About";
 import Services from "./components/Services";
@@ -7,14 +7,14 @@ import Contact from "./components/Contact";
 import Policy from "./components/Policy";
 import Error from "./components/Error";
 import './App.css';
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from './components/NavBar';
 import Footer from "./components/Footer";
 
 function App() {
   return (
       <div>
-        <BrowserRouter>
+        <Router>
           <Navbar />
             <Routes>
               <Route path='/' element={<Home/>} />
@@ -25,8 +25,9 @@ function App() {
               <Route path='/components' element={<Error/>} />
             </Routes>
           <Footer />
-        </BrowserRouter>
+        </Router>
       </div>
+      
   );
 }
 

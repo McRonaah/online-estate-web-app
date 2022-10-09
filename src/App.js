@@ -1,5 +1,5 @@
 import React from "react";
-import { Router, Route, } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from "./components/Home";
 import About from "./components/About";
 import Services from "./components/Services";
@@ -14,17 +14,18 @@ import Footer from "./components/Footer";
 function App() {
   return (
       <div>
-      <Navbar />
-        <Router>
-          <Route path='/' element={<Home/>} />
-          <Route path='/components/About' element={<About/>} />
-          <Route path='/components/Services' element={<Services/>} />
-          <Route path='/components/Contact' element={<Contact/>} />
-          <Route path='/components/Policy' element={<Policy/>} />
-          <Route path='/components' element={<Error/>} />
-          </Router>
-        <Footer />
-
+        <BrowserRouter>
+          <Navbar />
+            <Routes>
+              <Route path='/' element={<Home/>} />
+              <Route path='/components/About' element={<About/>} />
+              <Route path='/components/Services' element={<Services/>} />
+              <Route path='/components/Contact' element={<Contact/>} />
+              <Route path='/components/Policy' element={<Policy/>} />
+              <Route path='/components' element={<Error/>} />
+            </Routes>
+          <Footer />
+        </BrowserRouter>
       </div>
   );
 }

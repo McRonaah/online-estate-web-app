@@ -2,7 +2,7 @@
   "name": "estate-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://McRonaah.github.io/online-estate-web-app",
+  "homepage": ".",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -31,7 +31,8 @@
     "style-loader": "^0.23.1",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0",
-    "webpack-dev-server": "^3.2.1"
+    "webpack-dev-server": "^3.2.1",
+    "gh-pages": "^4.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -58,9 +59,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-  "gh-pages": "^4.0.0"
   },
   "repository": {
     "type": "git",
